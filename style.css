@@ -1,0 +1,102 @@
+body{
+    background-color: #cbd6d1;
+}
+
+.navbar{
+    max-height: 50px;
+	background-color: #a8f0d9;
+    font-size: 16px;
+}
+
+.navigation .navbar-brand{
+	color: white;
+	margin-left: 30px;
+	padding: inherit;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: #8bd9c0;
+}
+
+.nav-link:hover{
+	color: white;
+	background-color: #8bd9c0;
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
+    background-color:#adc7c4; 
+}
+
+.dropdown-item{
+	background-color: #a8f0d9;
+}
+
+@media (max-width: 1000px){
+.navbar{
+	max-height: none; 
+	padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: #a8f0d9;  
+}
+.navbar-expand-lg{
+	background-color: #a8f0d9;
+}
+.navbar-brand{
+    padding: 10px; 
+}
+
+button{
+    margin-left: auto; 
+}
+
+button:focus {
+    outline: 1px dotted;
+}
+}
+
+.description {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 10px 30px 5px;
+	color: black;
+	background-color: white;
+}
+
+.content {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 10px 30px 40px;
+	color: black;
+	background-color: white;
+}
+.principal-header, .visualizations-header {
+	padding-top: 15px; 
+	padding-left: 4px;
+	color: #8bd9c0;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.principal-plot {
+	float: left;
+	width: 50%;
+	height: 50%;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+p{
+	color: #414d4a;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.active, .plot:hover{
+    border-color:#8bd9c0;
+    border-style: solid; 
+}
